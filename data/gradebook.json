@@ -1,0 +1,70 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Ada Lovelace"
+        },
+        {
+            "id": 2,
+            "name": "Alan Turing"
+        },
+        {
+            "id": 3,
+            "name": "Grace Hopper"
+        }
+    ],
+    "courses": [
+        {
+            "code": "CS101",
+            "title": "Introduction to Computer Science"
+        },
+        {
+            "code": "PY201",
+            "title": "Python Programming"
+        }
+    ],
+    "enrollments": [
+        {
+            "student_id": 1,
+            "course_code": "CS101",
+            "grades": [
+                95.0,
+                88.0,
+                90.0,
+                85.0,
+                95.0,
+                98.0,
+                100.0
+            ]
+        },
+        {
+            "student_id": 1,
+            "course_code": "PY201",
+            "grades": [
+                97.0
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_code": "CS101",
+            "grades": [
+                84.0
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_code": "PY201",
+            "grades": [
+                91.0
+            ]
+        },
+        {
+            "student_id": 3,
+            "course_code": "PY201",
+            "grades": [
+                99.0
+            ]
+        }
+    ],
+    "next_student_id": 4
+}

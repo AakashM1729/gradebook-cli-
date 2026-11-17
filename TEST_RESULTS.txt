@@ -1,0 +1,7 @@
+Run from the project root:
+
+python -m unittest discover -s tests -v
+
+The project test suite covers model validation, immutable service operations,
+student/course creation, enrollment, grade validation, averages, GPA, sorting,
+and edge cases.
